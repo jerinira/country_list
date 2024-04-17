@@ -1,0 +1,15 @@
+.home-container {
+    transition: transform 0.3s; /* Apply transition to transform property */
+  }
+  
+  .drawer-open {
+    transform: translateX(250px); /* Move the container to the right when drawer is open */
+    width: calc(100% - 250px); /* Adjust width to accommodate the drawer */
+  }
+  
+  /* Adjust styles for the drawer */
+  .drawer {
+    width: 250px;
+    /* Add any other styles for the drawer */
+  }
+  
